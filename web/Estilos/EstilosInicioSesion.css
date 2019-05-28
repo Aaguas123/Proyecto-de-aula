@@ -1,0 +1,130 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26-may-2019, 20:10:50
+    Author     : Aguas
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10-abr-2019, 19:28:05
+    Author     : Aguas
+*/@font-face{
+    font-family: 'playball';
+    src: url(../Fuentes/Playball.ttf);
+}
+@font-face{
+    font-family: 'nex';
+    src: url(../Fuentes/NexaLight.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    position: static;
+
+}
+header{
+
+    width:  100%;    
+    height: 100%;
+    top:0cm;
+    left: 0cm;
+    background: -webkit-linear-gradient(left, rgba(3,61,133,1) 0%, rgba(3,61,133,1) 33%, rgba(22,133,184,1) 95%, rgba(22,133,184,1) 100%);}
+
+.section{
+
+
+   
+    width:100%;    
+    height: 100%;
+    top:6cm;
+    left: 0cm;
+
+}
+#Container1{
+
+    border: 0;
+    color:rgba(7,100,160,0.8);
+    background:rgba(175,212,236,0.2);
+    width: 27%;
+    height: 50%;
+    margin-top: 0%;
+    margin-left: 64.5%;
+    border-radius: 29px 29px 29px 29px;
+    -moz-border-radius: 29px 29px 29px 29px;
+    -webkit-border-radius: 29px 29px 29px 29px;
+    border: 0px solid #000000;
+}
+body{
+    background: -webkit-linear-gradient(left, rgba(3,61,133,1) 0%, rgba(3,61,133,1) 33%, rgba(22,133,184,1) 95%, rgba(22,133,184,1) 100%);
+    background-size: 100% 100%;
+    background-attachment:  fixed;
+}
+.en{
+    position: absolute;
+    top:2%; 
+    left: 85%;
+    color: white;
+    text-decoration: none;
+    font-family: playball;
+}
+.en2{
+    color: white ;
+    position: absolute;
+    top:2%; 
+    left: 73%; 
+    text-decoration: none;
+    font-family: playball;
+}
+
+.log{
+    width: 200px;
+    color: black;
+
+}
+
+.en3{
+    color: white ;
+
+    top:6.1cm; 
+    left: 68%; 
+    text-decoration: none;
+    font-family: nex;}
+
+.lab4{
+    color: white;
+    font-family: playball ;
+    margin-top: 0%;
+    margin-left: 65%;
+    font-size: 2cm;
+}
+
+.Mail{
+    font-family: nex;  
+    color: white; 
+    font-size: 120%;
+}
+#Requerido{
+    font-family: nex;  
+    color: white; 
+    font-size: 70%;
+}
+
+#bEnviar{
+
+    width: 50%;
+    height: 10%;  
+    margin-top: 10%;
+    margin-left: 28%
+}
+
+
+
+
+

@@ -1,0 +1,113 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26-may-2019, 20:45:36
+    Author     : Aguas
+*/
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face{
+    font-family: 'playball';
+    src: url(../Fuentes/Playball.ttf);
+}
+@font-face{
+    font-family: 'nex';
+    src: url(../Fuentes/NexaLight.otf);
+}
+
+header{
+    width: 100%;    
+    height: 5cm;
+    position: relative;
+    background: -webkit-linear-gradient(left, rgba(3,61,133,1) 0%, rgba(3,61,133,1) 33%, rgba(22,133,184,1) 95%, rgba(22,133,184,1) 100%);}
+.en1{
+    position: absolute;
+    top: 1%;
+    left: 70%;
+    text-decoration: none;
+    font-family: playball;
+    color: white;
+}
+body{
+    background: -webkit-linear-gradient(left, rgba(3,61,133,1) 0%, rgba(3,61,133,1) 33%, rgba(22,133,184,1) 95%, rgba(22,133,184,1) 100%);
+    background-size: 100% 100%;
+    background-attachment:  fixed;
+}
+.en2{
+    position: absolute;
+    top: 1%;
+    left: 96%;
+}
+.en3{
+    position: absolute;
+    top: 3%;
+    left: 83%; 
+}
+.di111{
+    position: absolute;
+    top: -3%;
+    left: 20%;
+}
+
+#menu{
+    background-color: #000;
+
+}
+
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+#menu ul li{
+    display: inline-block;
+}
+
+#menu ul li a{
+    color: white;
+    display: block;
+    padding: 20px 20px;
+    margin-top: -10%;
+    text-decoration: none;
+}
+
+#menu ul li a:hover{
+    background-color: #2E64FE;
+}
+
+
+
+.fot1{
+    position: absolute; 
+    width: 100%;
+    height: 100%;
+
+}
+label{
+    font-family: nex;  
+    color: black; 
+    font-size: 100%;
+}
+#tabla{
+    border: 0;
+
+}
+
+#Boton1{
+        background: #B4B8B9;
+}
+#boton{
+    position: static;
+     background: #CDD2CF     ;
+   
+     margin-top: 7%;
+}

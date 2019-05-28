@@ -1,0 +1,138 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10-abr-2019, 18:59:02
+    Author     : Aguas
+*/
+
+@font-face{
+    font-family: 'playball';
+    src: url(../Fuentes/Playball.ttf);
+}
+@font-face{
+    font-family: 'nex';
+    src: url(../Fuentes/NexaLight.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.h11{
+    font-family: 'Righteous';   
+    top: -1cm;
+    left: 2cm;
+    font-size: 4cm;
+
+
+}
+
+.div1{
+    position: static;
+    color: white;
+    font-family: playball ;
+    margin-left: 59%;
+    margin-top: 0%;
+    font-size: 2cm;
+}
+
+header{
+    background: -webkit-linear-gradient(left, rgba(3,61,133,1) 0%, rgba(3,61,133,1) 33%, rgba(22,133,184,1) 95%, rgba(22,133,184,1) 100%);
+    position: static;
+    width: 100%;    
+    height: 6cm;
+    margin: 0;
+    padding: 0;
+
+}
+.fot1{
+
+    position: static;
+    width: 100%;    
+    height: 100%;
+    top:6cm;
+
+}
+
+body{
+    background: -webkit-linear-gradient(left, rgba(3,61,133,1) 0%, rgba(3,61,133,1) 33%, rgba(22,133,184,1) 95%, rgba(22,133,184,1) 100%);
+    background-size: 100% 100%;
+    background-attachment:  fixed;
+}
+
+.agus{
+    color: white;
+    position: relative;
+    top:-40%; 
+    left: 15%;
+    text-decoration: none;
+    font-family: playball;
+}
+
+.on{
+    width: 300px;
+    height: 200px;
+}
+
+
+.a1{
+    color: white ;
+    position: relative;
+    top:-40%; 
+    left: 32%; 
+    text-decoration: none;
+    font-family: playball;
+}
+.div2{
+
+    top: 6cm;
+    left: 7cm;
+}
+
+#Container{
+    border: 0;
+    color:rgba(7,100,160,0.8);
+    background:rgba(175,212,236,0.2);
+    position: static;
+    width: 40%;
+    height: 30%;
+    margin-top: 0%;
+    margin-left: 50%;
+    border-radius: 29px 29px 29px 29px;
+    -moz-border-radius: 29px 29px 29px 29px;
+    -webkit-border-radius: 29px 29px 29px 29px;
+    border: 0px solid #000000;
+}
+
+#bEnviar{
+    position: static;
+    width: 20%;
+    height: 10%;  
+    margin-top: 0%;
+    margin-left: 40%;
+}
+
+
+label{
+    font-family: nex;  
+    color: white; 
+    font-size: 120%;
+}
+
+#Requerido{
+    font-family: nex;  
+    color: white; 
+    font-size: 70%;
+}
+.table{
+    border-color: white;
+}
+
+
+
+
+

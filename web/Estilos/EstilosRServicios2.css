@@ -1,0 +1,132 @@
+
+@font-face{
+    font-family: 'playball';
+    src: url(../Fuentes/Playball.ttf);
+}
+@font-face{
+    font-family: 'nex';
+    src: url(../Fuentes/NexaLight.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    position: static;
+}
+body{
+    background: -webkit-linear-gradient(45deg, rgba(2,22,51,1) 0%, rgba(2,22,51,1) 3%, rgba(3,86,156,1) 51%, rgba(36,148,179,1) 100%);   
+    background-size: 100% 100%;
+    background-attachment:  fixed;
+}
+.div1{
+    color: white;
+    font-family: playball ;
+    position: static;
+    margin-top: 4%;
+    margin-left: 27%;  
+    font-size: 2cm;
+}
+header{
+    width: 100%;    
+    height: 5cm;
+    position: relative;
+
+    background: -webkit-linear-gradient(left, rgba(3,61,133,1) 0%, rgba(3,61,133,1) 33%, rgba(22,133,184,1) 95%, rgba(22,133,184,1) 100%);}
+.en1{
+    position: absolute;
+    top: 1%;
+    left: 70%;
+    text-decoration: none;
+    font-family: playball;
+    color: white;
+
+}
+.en2{
+    position: absolute;
+    top: 1%;
+    left: 96%;
+}
+.en3{
+    position: absolute;
+    top: 3%;
+    left: 83%; 
+}
+.di111{
+    position: absolute;
+    top: 72%;
+    left: 18%;
+}
+.divi13{  
+    position: absolute; 
+
+    width: 100%;
+    height: 100%;
+}
+
+.titulo1{
+    color: black;
+    font-family: playball;
+    font-size: 2cm;
+    position: relative;
+    top: 40%;
+
+}
+
+#menu{
+    background-color: #000;
+
+}
+
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul li{
+    display: inline-block;
+}
+
+#menu ul li a{
+    color: white;
+    display: block;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+#menu ul li a:hover{
+    background-color: #2E64FE;
+}
+#Container{
+    border: 0;
+    color:rgba(7,100,160,0.8);
+    background:rgba(175,212,236,0.2);
+    position: static;
+    width: 40%;  
+    margin-top: 0%;
+    margin-left: 30%;
+    border-radius: 29px 29px 29px 29px;
+    -moz-border-radius: 29px 29px 29px 29px;
+    -webkit-border-radius: 29px 29px 29px 29px;
+    border: 0px solid #000000;
+}
+
+#bEnviar{
+    position: static;
+    width: 20%;
+    height: 5%;  
+    margin-top: 6%;
+    margin-left: 40%;
+}
+label{
+    font-family: nex;  
+    color: white; 
+    font-size: 120%;
+}
+
+#Requerido{
+    font-family: nex;  
+    color: white; 
+    font-size: 70%;
+}
+
+
